@@ -1,10 +1,10 @@
 # exercise 4 primitive quiz
 
-question = input('What is the capital of France').lower()
+question = input('What is the capital of France ').lower()
 if question == 'paris': print('you are correct')
 else: print('you are wrong')
 
-question2 = input('What is the capital of Czech Republic').lower()
+question2 = input('What is the capital of Czech Republic ').lower()
 if question2 == 'prague': print('you are correct')
 else: print('you are wrong')
 

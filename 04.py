@@ -1,4 +1,5 @@
 # exercise 4 primitive quiz
+# the .lower() makes sures that all the correct answer will be correct for example PaRis will be a correct answer if .lower() isnt there then is the user types PaRis the answer will be wrong
 
 question = input('What is the capital of France ').lower()
 if question == 'paris': print('you are correct')
